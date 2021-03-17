@@ -17,32 +17,29 @@ void Ship::initializeGL(GLuint program) {
   m_velocity = glm::vec2(0);
 
   // clang-format off
-  std::array<glm::vec2, 24> positions{
-      // Ship body
-      glm::vec2{-02.5f, +12.5f}, glm::vec2{-15.5f, +02.5f},
-      glm::vec2{-15.5f, -12.5f}, glm::vec2{-09.5f, -07.5f},
-      glm::vec2{-03.5f, -12.5f}, glm::vec2{+03.5f, -12.5f},
-      glm::vec2{+09.5f, -07.5f}, glm::vec2{+15.5f, -12.5f},
-      glm::vec2{+15.5f, +02.5f}, glm::vec2{+02.5f, +12.5f},
+  std::array<glm::vec2, 8> positions{
+      // Corpo Carrinho
+      glm::vec2{+00.0f, +10.0f}, glm::vec2{-10.0f, +20.0f},
+      glm::vec2{+10.0f, +20.0f}, glm::vec2{+00.0f, +10.0f}, 
+
+      glm::vec2{+00.0f, +15.0f}, glm::vec2{-10.0f, -05.0f}, 
+      glm::vec2{+10.0f, -05.0f}, glm::vec2{+00.0f, +15.0f},
+      
+      
+      // Rodinhas frontais 
+      // glm::vec2{-07.0f, +17.5f}, glm::vec2{-07.0f, +12.5f},
+      // glm::vec2{+00.0f, +17.5f}, glm::vec2{+00.0f, +15.0f},
+      
+      // glm::vec2{+07.0f, +17.5f}, glm::vec2{+07.0f, +12.5f},
+      // glm::vec2{+00.0f, +17.5f}, glm::vec2{+00.0f, +15.0f},
+
+      // Rodinhas traseiras 
+      //glm::vec2{+15.5f, -17.5f}glm::vec2{-12.5f, +10.5f}, glm::vec2{-12.5f, +04.0f},
+      
+      };
 
       // Cannon left
-      glm::vec2{-12.5f, +10.5f}, glm::vec2{-12.5f, +04.0f},
-      glm::vec2{-09.5f, +04.0f}, glm::vec2{-09.5f, +10.5f},
-
-      // Cannon right
-      glm::vec2{+09.5f, +10.5f}, glm::vec2{+09.5f, +04.0f},
-      glm::vec2{+12.5f, +04.0f}, glm::vec2{+12.5f, +10.5f},
       
-      // Thruster trail (left)
-      glm::vec2{-12.0f, -07.5f}, 
-      glm::vec2{-09.5f, -18.0f}, 
-      glm::vec2{-07.0f, -07.5f},
-
-      // Thruster trail (right)
-      glm::vec2{+07.0f, -07.5f}, 
-      glm::vec2{+09.5f, -18.0f}, 
-      glm::vec2{+12.0f, -07.5f},
-      };
 
   // Normalize
   for (auto &position :positions) {

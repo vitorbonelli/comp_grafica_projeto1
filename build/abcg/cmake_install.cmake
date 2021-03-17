@@ -1,4 +1,4 @@
-# Install script for directory: /home/vbonelli/Projetos/comp_grafica_projeto1/abcg
+# Install script for directory: /home/pardomarques/comp_grafica_projeto1/abcg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/vbonelli/Projetos/comp_grafica_projeto1/build/abcg/external/cmake_install.cmake")
+  include("/home/pardomarques/comp_grafica_projeto1/build/abcg/external/cmake_install.cmake")
 
 endif()
 

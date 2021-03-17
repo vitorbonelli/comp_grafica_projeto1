@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vbonelli/Projetos/comp_grafica_projeto1
+CMAKE_SOURCE_DIR = /home/pardomarques/comp_grafica_projeto1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vbonelli/Projetos/comp_grafica_projeto1/build
+CMAKE_BINARY_DIR = /home/pardomarques/comp_grafica_projeto1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto1/build/CMakeFiles /home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/asteroids/CMakeFiles/progress.marks
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f CMakeFiles/Makefile2 examples/asteroids/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto1/build/CMakeFiles 0
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pardomarques/comp_grafica_projeto1/build/CMakeFiles /home/pardomarques/comp_grafica_projeto1/build/examples/asteroids/CMakeFiles/progress.marks
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f CMakeFiles/Makefile2 examples/asteroids/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pardomarques/comp_grafica_projeto1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f CMakeFiles/Makefile2 examples/asteroids/clean
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f CMakeFiles/Makefile2 examples/asteroids/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f CMakeFiles/Makefile2 examples/asteroids/preinstall
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f CMakeFiles/Makefile2 examples/asteroids/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f CMakeFiles/Makefile2 examples/asteroids/preinstall
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f CMakeFiles/Makefile2 examples/asteroids/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/asteroids/CMakeFiles/asteroids.dir/rule:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f CMakeFiles/Makefile2 examples/asteroids/CMakeFiles/asteroids.dir/rule
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f CMakeFiles/Makefile2 examples/asteroids/CMakeFiles/asteroids.dir/rule
 .PHONY : examples/asteroids/CMakeFiles/asteroids.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ asteroids: examples/asteroids/CMakeFiles/asteroids.dir/rule
 
 # fast build rule for target.
 asteroids/fast:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/build
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/build
 .PHONY : asteroids/fast
 
 asteroids.o: asteroids.cpp.o
@@ -131,7 +131,7 @@ asteroids.o: asteroids.cpp.o
 
 # target to build an object file
 asteroids.cpp.o:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/asteroids.cpp.o
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/asteroids.cpp.o
 .PHONY : asteroids.cpp.o
 
 asteroids.i: asteroids.cpp.i
@@ -140,7 +140,7 @@ asteroids.i: asteroids.cpp.i
 
 # target to preprocess a source file
 asteroids.cpp.i:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/asteroids.cpp.i
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/asteroids.cpp.i
 .PHONY : asteroids.cpp.i
 
 asteroids.s: asteroids.cpp.s
@@ -149,35 +149,8 @@ asteroids.s: asteroids.cpp.s
 
 # target to generate assembly for a file
 asteroids.cpp.s:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/asteroids.cpp.s
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/asteroids.cpp.s
 .PHONY : asteroids.cpp.s
-
-bullets.o: bullets.cpp.o
-
-.PHONY : bullets.o
-
-# target to build an object file
-bullets.cpp.o:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/bullets.cpp.o
-.PHONY : bullets.cpp.o
-
-bullets.i: bullets.cpp.i
-
-.PHONY : bullets.i
-
-# target to preprocess a source file
-bullets.cpp.i:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/bullets.cpp.i
-.PHONY : bullets.cpp.i
-
-bullets.s: bullets.cpp.s
-
-.PHONY : bullets.s
-
-# target to generate assembly for a file
-bullets.cpp.s:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/bullets.cpp.s
-.PHONY : bullets.cpp.s
 
 main.o: main.cpp.o
 
@@ -185,7 +158,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/main.cpp.o
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -194,7 +167,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/main.cpp.i
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -203,7 +176,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/main.cpp.s
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 openglwindow.o: openglwindow.cpp.o
@@ -212,7 +185,7 @@ openglwindow.o: openglwindow.cpp.o
 
 # target to build an object file
 openglwindow.cpp.o:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/openglwindow.cpp.o
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/openglwindow.cpp.o
 .PHONY : openglwindow.cpp.o
 
 openglwindow.i: openglwindow.cpp.i
@@ -221,7 +194,7 @@ openglwindow.i: openglwindow.cpp.i
 
 # target to preprocess a source file
 openglwindow.cpp.i:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/openglwindow.cpp.i
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/openglwindow.cpp.i
 .PHONY : openglwindow.cpp.i
 
 openglwindow.s: openglwindow.cpp.s
@@ -230,7 +203,7 @@ openglwindow.s: openglwindow.cpp.s
 
 # target to generate assembly for a file
 openglwindow.cpp.s:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/openglwindow.cpp.s
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/openglwindow.cpp.s
 .PHONY : openglwindow.cpp.s
 
 ship.o: ship.cpp.o
@@ -239,7 +212,7 @@ ship.o: ship.cpp.o
 
 # target to build an object file
 ship.cpp.o:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/ship.cpp.o
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/ship.cpp.o
 .PHONY : ship.cpp.o
 
 ship.i: ship.cpp.i
@@ -248,7 +221,7 @@ ship.i: ship.cpp.i
 
 # target to preprocess a source file
 ship.cpp.i:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/ship.cpp.i
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/ship.cpp.i
 .PHONY : ship.cpp.i
 
 ship.s: ship.cpp.s
@@ -257,7 +230,7 @@ ship.s: ship.cpp.s
 
 # target to generate assembly for a file
 ship.cpp.s:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/ship.cpp.s
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/ship.cpp.s
 .PHONY : ship.cpp.s
 
 starlayers.o: starlayers.cpp.o
@@ -266,7 +239,7 @@ starlayers.o: starlayers.cpp.o
 
 # target to build an object file
 starlayers.cpp.o:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/starlayers.cpp.o
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/starlayers.cpp.o
 .PHONY : starlayers.cpp.o
 
 starlayers.i: starlayers.cpp.i
@@ -275,7 +248,7 @@ starlayers.i: starlayers.cpp.i
 
 # target to preprocess a source file
 starlayers.cpp.i:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/starlayers.cpp.i
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/starlayers.cpp.i
 .PHONY : starlayers.cpp.i
 
 starlayers.s: starlayers.cpp.s
@@ -284,7 +257,7 @@ starlayers.s: starlayers.cpp.s
 
 # target to generate assembly for a file
 starlayers.cpp.s:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/starlayers.cpp.s
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(MAKE) -f examples/asteroids/CMakeFiles/asteroids.dir/build.make examples/asteroids/CMakeFiles/asteroids.dir/starlayers.cpp.s
 .PHONY : starlayers.cpp.s
 
 # Help Target
@@ -299,9 +272,6 @@ help:
 	@echo "... asteroids.o"
 	@echo "... asteroids.i"
 	@echo "... asteroids.s"
-	@echo "... bullets.o"
-	@echo "... bullets.i"
-	@echo "... bullets.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -325,6 +295,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pardomarques/comp_grafica_projeto1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

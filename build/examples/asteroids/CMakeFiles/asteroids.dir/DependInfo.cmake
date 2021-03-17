@@ -4,12 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/vbonelli/Projetos/comp_grafica_projeto1/examples/asteroids/asteroids.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/asteroids/CMakeFiles/asteroids.dir/asteroids.cpp.o"
-  "/home/vbonelli/Projetos/comp_grafica_projeto1/examples/asteroids/bullets.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/asteroids/CMakeFiles/asteroids.dir/bullets.cpp.o"
-  "/home/vbonelli/Projetos/comp_grafica_projeto1/examples/asteroids/main.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/asteroids/CMakeFiles/asteroids.dir/main.cpp.o"
-  "/home/vbonelli/Projetos/comp_grafica_projeto1/examples/asteroids/openglwindow.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/asteroids/CMakeFiles/asteroids.dir/openglwindow.cpp.o"
-  "/home/vbonelli/Projetos/comp_grafica_projeto1/examples/asteroids/ship.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/asteroids/CMakeFiles/asteroids.dir/ship.cpp.o"
-  "/home/vbonelli/Projetos/comp_grafica_projeto1/examples/asteroids/starlayers.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/asteroids/CMakeFiles/asteroids.dir/starlayers.cpp.o"
+  "/home/pardomarques/comp_grafica_projeto1/examples/asteroids/asteroids.cpp" "/home/pardomarques/comp_grafica_projeto1/build/examples/asteroids/CMakeFiles/asteroids.dir/asteroids.cpp.o"
+  "/home/pardomarques/comp_grafica_projeto1/examples/asteroids/main.cpp" "/home/pardomarques/comp_grafica_projeto1/build/examples/asteroids/CMakeFiles/asteroids.dir/main.cpp.o"
+  "/home/pardomarques/comp_grafica_projeto1/examples/asteroids/openglwindow.cpp" "/home/pardomarques/comp_grafica_projeto1/build/examples/asteroids/CMakeFiles/asteroids.dir/openglwindow.cpp.o"
+  "/home/pardomarques/comp_grafica_projeto1/examples/asteroids/ship.cpp" "/home/pardomarques/comp_grafica_projeto1/build/examples/asteroids/CMakeFiles/asteroids.dir/ship.cpp.o"
+  "/home/pardomarques/comp_grafica_projeto1/examples/asteroids/starlayers.cpp" "/home/pardomarques/comp_grafica_projeto1/build/examples/asteroids/CMakeFiles/asteroids.dir/starlayers.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -27,9 +26,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/vbonelli/Projetos/comp_grafica_projeto1/build/abcg/CMakeFiles/abcg.dir/DependInfo.cmake"
-  "/home/vbonelli/Projetos/comp_grafica_projeto1/build/abcg/external/fmt/CMakeFiles/fmt.dir/DependInfo.cmake"
-  "/home/vbonelli/Projetos/comp_grafica_projeto1/build/abcg/external/imgui/CMakeFiles/imgui.dir/DependInfo.cmake"
+  "/home/pardomarques/comp_grafica_projeto1/build/abcg/CMakeFiles/abcg.dir/DependInfo.cmake"
+  "/home/pardomarques/comp_grafica_projeto1/build/abcg/external/fmt/CMakeFiles/fmt.dir/DependInfo.cmake"
+  "/home/pardomarques/comp_grafica_projeto1/build/abcg/external/imgui/CMakeFiles/imgui.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
