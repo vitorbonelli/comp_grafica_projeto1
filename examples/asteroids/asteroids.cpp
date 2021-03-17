@@ -85,30 +85,34 @@ Asteroids::Asteroid Asteroids::createAsteroid(glm::vec2 translation,
   auto &re{m_randomEngine};  // Shortcut
 
   // Randomly choose the number of sides
-  std::uniform_int_distribution<int> randomSides(6, 20);
+  std::uniform_int_distribution<int> randomSides(3, 3);
   asteroid.m_polygonSides = randomSides(re);
 
   // Choose a random color (actually, a grayscale)
-  std::uniform_real_distribution<float> randomIntensity(0.5f, 1.0f);
-  asteroid.m_color = glm::vec4(1) * randomIntensity(re);
+  std::uniform_real_distribution<float> randomIntensity(0.5f, 0.6f);
+  // asteroid.m_color = glm::vec4(1) * randomIntensity(re);
+  asteroid.m_color = glm::vec4(243, 114, 0, 0);
 
   asteroid.m_color.a = 1.0f;
-  asteroid.m_rotation = 0.0f;
+  asteroid.m_rotation = -0.5f;
   asteroid.m_scale = scale;
   asteroid.m_translation = translation;
 
   // Choose a random angular velocity
-  asteroid.m_angularVelocity = m_randomDist(re);
+  asteroid.m_angularVelocity = 0.0f;
 
   // Choose a random direction
-  glm::vec2 direction{m_randomDist(re), m_randomDist(re)};
-  asteroid.m_velocity = glm::normalize(direction) / 7.0f;
+  // glm::vec2 direction{m_randomDist(re), m_randomDist(re)};
+  glm::vec2 direction{0.0f, -1.0f};
+  asteroid.m_velocity = glm::normalize(direction)/ 5.0f ; 
 
   // Create geometry
   std::vector<glm::vec2> positions(0);
   positions.emplace_back(0, 0);
   auto step{M_PI * 2 / asteroid.m_polygonSides};
-  std::uniform_real_distribution<float> randomRadius(0.8f, 1.0f);
+  std::uniform_real_distribution<float> randomRadius(0.8f, 0.8f);
+  
+  
   for (auto angle : iter::range(0.0, M_PI * 2, step)) {
     auto radius{randomRadius(re)};
     positions.emplace_back(radius * std::cos(angle), radius * std::sin(angle));
