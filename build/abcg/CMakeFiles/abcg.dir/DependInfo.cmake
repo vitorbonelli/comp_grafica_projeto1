@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pardomarques/comp_grafica_projeto1/abcg/abcg_application.cpp" "/home/pardomarques/comp_grafica_projeto1/build/abcg/CMakeFiles/abcg.dir/abcg_application.cpp.o"
-  "/home/pardomarques/comp_grafica_projeto1/abcg/abcg_elapsedtimer.cpp" "/home/pardomarques/comp_grafica_projeto1/build/abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o"
-  "/home/pardomarques/comp_grafica_projeto1/abcg/abcg_exception.cpp" "/home/pardomarques/comp_grafica_projeto1/build/abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.o"
-  "/home/pardomarques/comp_grafica_projeto1/abcg/abcg_image.cpp" "/home/pardomarques/comp_grafica_projeto1/build/abcg/CMakeFiles/abcg.dir/abcg_image.cpp.o"
-  "/home/pardomarques/comp_grafica_projeto1/abcg/abcg_openglfunctions.cpp" "/home/pardomarques/comp_grafica_projeto1/build/abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o"
-  "/home/pardomarques/comp_grafica_projeto1/abcg/abcg_openglwindow.cpp" "/home/pardomarques/comp_grafica_projeto1/build/abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o"
-  "/home/pardomarques/comp_grafica_projeto1/abcg/abcg_string.cpp" "/home/pardomarques/comp_grafica_projeto1/build/abcg/CMakeFiles/abcg.dir/abcg_string.cpp.o"
-  "/home/pardomarques/comp_grafica_projeto1/abcg/abcg_trackball.cpp" "/home/pardomarques/comp_grafica_projeto1/build/abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.o"
+  "/home/vbonelli/Projetos/comp_grafica_projeto1/abcg/abcg_application.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/abcg/CMakeFiles/abcg.dir/abcg_application.cpp.o"
+  "/home/vbonelli/Projetos/comp_grafica_projeto1/abcg/abcg_elapsedtimer.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/abcg/CMakeFiles/abcg.dir/abcg_elapsedtimer.cpp.o"
+  "/home/vbonelli/Projetos/comp_grafica_projeto1/abcg/abcg_exception.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/abcg/CMakeFiles/abcg.dir/abcg_exception.cpp.o"
+  "/home/vbonelli/Projetos/comp_grafica_projeto1/abcg/abcg_image.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/abcg/CMakeFiles/abcg.dir/abcg_image.cpp.o"
+  "/home/vbonelli/Projetos/comp_grafica_projeto1/abcg/abcg_openglfunctions.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/abcg/CMakeFiles/abcg.dir/abcg_openglfunctions.cpp.o"
+  "/home/vbonelli/Projetos/comp_grafica_projeto1/abcg/abcg_openglwindow.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/abcg/CMakeFiles/abcg.dir/abcg_openglwindow.cpp.o"
+  "/home/vbonelli/Projetos/comp_grafica_projeto1/abcg/abcg_string.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/abcg/CMakeFiles/abcg.dir/abcg_string.cpp.o"
+  "/home/vbonelli/Projetos/comp_grafica_projeto1/abcg/abcg_trackball.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/abcg/CMakeFiles/abcg.dir/abcg_trackball.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -29,8 +29,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/pardomarques/comp_grafica_projeto1/build/abcg/external/fmt/CMakeFiles/fmt.dir/DependInfo.cmake"
-  "/home/pardomarques/comp_grafica_projeto1/build/abcg/external/imgui/CMakeFiles/imgui.dir/DependInfo.cmake"
+  "/home/vbonelli/Projetos/comp_grafica_projeto1/build/abcg/external/fmt/CMakeFiles/fmt.dir/DependInfo.cmake"
+  "/home/vbonelli/Projetos/comp_grafica_projeto1/build/abcg/external/imgui/CMakeFiles/imgui.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -26,7 +26,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../cmake/StaticAnalyzers.cmake"
   "../cmake/Warnings.cmake"
   "../examples/CMakeLists.txt"
-  "../examples/asteroids/CMakeLists.txt"
+  "../examples/carrinho/CMakeLists.txt"
   "/usr/share/cmake-3.16/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.16/Modules/CMakeCInformation.cmake"
@@ -160,7 +160,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "abcg/external/glm/CMakeFiles/CMakeDirectoryInformation.cmake"
   "abcg/external/gsl/CMakeFiles/CMakeDirectoryInformation.cmake"
   "examples/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "examples/asteroids/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "examples/carrinho/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -168,5 +168,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "abcg/CMakeFiles/abcg.dir/DependInfo.cmake"
   "abcg/external/imgui/CMakeFiles/imgui.dir/DependInfo.cmake"
   "abcg/external/fmt/CMakeFiles/fmt.dir/DependInfo.cmake"
-  "examples/asteroids/CMakeFiles/asteroids.dir/DependInfo.cmake"
+  "examples/carrinho/CMakeFiles/carrinho.dir/DependInfo.cmake"
   )

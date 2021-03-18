@@ -1,4 +1,4 @@
-# Install script for directory: /home/pardomarques/comp_grafica_projeto1/abcg/external/imgui
+# Install script for directory: /home/vbonelli/Projetos/comp_grafica_projeto1/abcg/external/imgui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
