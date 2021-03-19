@@ -2,10 +2,12 @@
 Este projeto trata-se de uma atividade da disciplina Computação Gráfica lecionada na UFABC.
 Utilizamos como base o framework montado para esta disciplina, o ABCg. (link: https://github.com/hbatagelo/abcg)
 
-Nome: Caio Augusto dos Santos Marques
-RA: 11074813
-Nome: Vitor Cota Bonelli
-RA: 11009113
+Membros do projeto
+			
+	Nome: Caio Augusto dos Santos Marques
+	RA: 11074813
+	Nome: Vitor Cota Bonelli
+	RA: 11009113
 
 Principais detalhes sobre o projeto
 			
