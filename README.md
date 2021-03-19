@@ -1,6 +1,7 @@
 # *Projeto Carrinho*
 Este projeto trata-se de uma atividade da disciplina Computação Gráfica lecionada na UFABC.
-Utilizamos como base o framework montado para esta disciplina, o ABCg. (link: https://github.com/hbatagelo/abcg)
+Utilizamos como base o framework montado para esta disciplina, o ABCg. 
+(link: https://github.com/hbatagelo/abcg)
 
 Membros do projeto
 			
@@ -18,7 +19,7 @@ Principais detalhes sobre o projeto
   
 
 Para executar o projeto localmente em sua maquina, é preciso seguir os seguintes procedimentos:
-http://professor.ufabc.edu.br/~harlen.batagelo/cg/config.html    
+(link: http://professor.ufabc.edu.br/~harlen.batagelo/cg/config.html)
 
 ```
 # Se a sua maquina estiver configurada para a execução do projeto, no terminal digite:
