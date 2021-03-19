@@ -65,8 +65,8 @@ void OpenGLWindow::initializeGL() {
   }
 
   // Create program to render the stars
-  m_starsProgram = createProgramFromFile(getAssetsPath() + "stars.vert",
-                                         getAssetsPath() + "stars.frag");
+  // m_starsProgram = createProgramFromFile(getAssetsPath() + "stars.vert",
+                                        //  getAssetsPath() + "stars.frag");
   // Create program to render the other objects
   m_objectsProgram = createProgramFromFile(getAssetsPath() + "objects.vert",
                                            getAssetsPath() + "objects.frag");
@@ -87,7 +87,7 @@ void OpenGLWindow::initializeGL() {
 void OpenGLWindow::restart() {
   m_gameData.m_state = State::Playing;
 
-  m_starLayers.initializeGL(m_starsProgram, 25);
+  // m_starLayers.initializeGL(m_starsProgram, 25);
   m_carrinho.initializeGL(m_objectsProgram);
   m_cones.initializeGL(m_objectsProgram, 3);
   //m_bullets.initializeGL(m_objectsProgram);
@@ -104,7 +104,7 @@ void OpenGLWindow::update() {
   }
 
   m_carrinho.update(m_gameData, deltaTime);
-  m_starLayers.update(m_carrinho, deltaTime);
+  //m_starLayers.update(m_carrinho, deltaTime);
   m_cones.update(m_carrinho, deltaTime);
   // m_bullets.update(m_carrinho, m_gameData, deltaTime);
 
@@ -120,7 +120,7 @@ void OpenGLWindow::paintGL() {
   glClear(GL_COLOR_BUFFER_BIT);
   glViewport(0, 0, m_viewportWidth, m_viewportHeight);
 
-  m_starLayers.paintGL();
+  //m_starLayers.paintGL();
   m_cones.paintGL();
   // m_bullets.paintGL();
   m_carrinho.paintGL(m_gameData);
@@ -160,13 +160,13 @@ void OpenGLWindow::resizeGL(int width, int height) {
 }
 
 void OpenGLWindow::terminateGL() {
-  glDeleteProgram(m_starsProgram);
+  // glDeleteProgram(m_starsProgram);
   glDeleteProgram(m_objectsProgram);
 
   m_cones.terminateGL();
   // m_bullets.terminateGL();
   m_carrinho.terminateGL();
-  m_starLayers.terminateGL();
+  //m_starLayers.terminateGL();
 }
 
 void OpenGLWindow::checkCollisions() {

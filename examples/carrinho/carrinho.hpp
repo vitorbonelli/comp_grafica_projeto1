@@ -5,9 +5,9 @@
 #include "gamedata.hpp"
 
 class Cones;
-//class Bullets;
+
 class OpenGLWindow;
-class StarLayers;
+
 
 class Carrinho {
  public:
@@ -20,9 +20,9 @@ class Carrinho {
 
  private:
   friend Cones;
-  //friend Bullets;
+  
   friend OpenGLWindow;
-  friend StarLayers;
+  
 
   GLuint m_program{};
   GLint m_translationLoc{};

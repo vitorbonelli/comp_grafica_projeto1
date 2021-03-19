@@ -9,7 +9,7 @@
 #include "cones.hpp"
 //#include "bullets.hpp"
 #include "carrinho.hpp"
-#include "starlayers.hpp"
+//#include "starlayers.hpp"
 
 class OpenGLWindow : public abcg::OpenGLWindow {
  protected:
@@ -21,7 +21,7 @@ class OpenGLWindow : public abcg::OpenGLWindow {
   void terminateGL() override;
 
  private:
-  GLuint m_starsProgram{};
+  //GLuint m_starsProgram{};
   GLuint m_objectsProgram{};
 
   int m_viewportWidth{};
@@ -32,7 +32,7 @@ class OpenGLWindow : public abcg::OpenGLWindow {
   Cones m_cones;
   //Bullets m_bullets;
   Carrinho m_carrinho;
-  StarLayers m_starLayers;
+  // StarLayers m_starLayers;
 
   abcg::ElapsedTimer m_restartWaitTimer;
 

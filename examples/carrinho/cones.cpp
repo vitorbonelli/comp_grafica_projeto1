@@ -103,8 +103,8 @@ Cones::Cone Cones::createCone(glm::vec2 translation,
 
   // Choose a random direction
   // glm::vec2 direction{m_randomDist(re), m_randomDist(re)};
-  glm::vec2 direction{0.0f, -1.0f};
-  cone.m_velocity = glm::normalize(direction)/ 2.0f ; 
+  glm::vec2 direction{m_randomDist(re), -1.0f};
+  cone.m_velocity = glm::normalize(direction)/ 5.0f ; 
 
   // Create geometry
   std::vector<glm::vec2> positions(0);
