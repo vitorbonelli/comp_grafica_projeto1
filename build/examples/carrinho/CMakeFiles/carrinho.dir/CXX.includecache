@@ -2087,26 +2087,6 @@ cones.hpp
 /home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/cones.hpp
 carrinho.hpp
 /home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/carrinho.hpp
-starlayers.hpp
-/home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/starlayers.hpp
-
-/home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/starlayers.cpp
-starlayers.hpp
-/home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/starlayers.hpp
-cppitertools/itertools.hpp
--
-
-/home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/starlayers.hpp
-array
--
-random
--
-abcg.hpp
-/home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/abcg.hpp
-gamedata.hpp
-/home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/gamedata.hpp
-carrinho.hpp
-/home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/carrinho.hpp
 
 /usr/include/SDL2/SDL.h
 SDL_main.h

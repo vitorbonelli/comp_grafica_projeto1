@@ -281,7 +281,7 @@ abcg/CMakeFiles/abcg.dir/clean:
 abcg/external/imgui/CMakeFiles/imgui.dir/all:
 	$(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/depend
 	$(MAKE) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vbonelli/Projetos/comp_grafica_projeto1/build/CMakeFiles --progress-num=18,19,20,21,22,23,24 "Built target imgui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vbonelli/Projetos/comp_grafica_projeto1/build/CMakeFiles --progress-num=17,18,19,20,21,22,23 "Built target imgui"
 .PHONY : abcg/external/imgui/CMakeFiles/imgui.dir/all
 
 # Build rule for subdir invocation for target.
@@ -308,7 +308,7 @@ abcg/external/imgui/CMakeFiles/imgui.dir/clean:
 abcg/external/fmt/CMakeFiles/fmt.dir/all:
 	$(MAKE) -f abcg/external/fmt/CMakeFiles/fmt.dir/build.make abcg/external/fmt/CMakeFiles/fmt.dir/depend
 	$(MAKE) -f abcg/external/fmt/CMakeFiles/fmt.dir/build.make abcg/external/fmt/CMakeFiles/fmt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vbonelli/Projetos/comp_grafica_projeto1/build/CMakeFiles --progress-num=16,17 "Built target fmt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vbonelli/Projetos/comp_grafica_projeto1/build/CMakeFiles --progress-num=15,16 "Built target fmt"
 .PHONY : abcg/external/fmt/CMakeFiles/fmt.dir/all
 
 # Build rule for subdir invocation for target.
@@ -337,12 +337,12 @@ examples/carrinho/CMakeFiles/carrinho.dir/all: abcg/external/imgui/CMakeFiles/im
 examples/carrinho/CMakeFiles/carrinho.dir/all: abcg/external/fmt/CMakeFiles/fmt.dir/all
 	$(MAKE) -f examples/carrinho/CMakeFiles/carrinho.dir/build.make examples/carrinho/CMakeFiles/carrinho.dir/depend
 	$(MAKE) -f examples/carrinho/CMakeFiles/carrinho.dir/build.make examples/carrinho/CMakeFiles/carrinho.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vbonelli/Projetos/comp_grafica_projeto1/build/CMakeFiles --progress-num=10,11,12,13,14,15 "Built target carrinho"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vbonelli/Projetos/comp_grafica_projeto1/build/CMakeFiles --progress-num=10,11,12,13,14 "Built target carrinho"
 .PHONY : examples/carrinho/CMakeFiles/carrinho.dir/all
 
 # Build rule for subdir invocation for target.
 examples/carrinho/CMakeFiles/carrinho.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto1/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto1/build/CMakeFiles 23
 	$(MAKE) -f CMakeFiles/Makefile2 examples/carrinho/CMakeFiles/carrinho.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/vbonelli/Projetos/comp_grafica_projeto1/build/CMakeFiles 0
 .PHONY : examples/carrinho/CMakeFiles/carrinho.dir/rule

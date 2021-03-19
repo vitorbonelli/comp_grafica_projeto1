@@ -5,7 +5,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/carrinho.dir/cones.cpp.o"
   "CMakeFiles/carrinho.dir/main.cpp.o"
   "CMakeFiles/carrinho.dir/openglwindow.cpp.o"
-  "CMakeFiles/carrinho.dir/starlayers.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

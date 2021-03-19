@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/cones.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/carrinho/CMakeFiles/carrinho.dir/cones.cpp.o"
   "/home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/main.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/carrinho/CMakeFiles/carrinho.dir/main.cpp.o"
   "/home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/openglwindow.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/carrinho/CMakeFiles/carrinho.dir/openglwindow.cpp.o"
-  "/home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/starlayers.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/carrinho/CMakeFiles/carrinho.dir/starlayers.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

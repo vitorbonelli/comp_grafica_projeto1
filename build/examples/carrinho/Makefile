@@ -233,33 +233,6 @@ openglwindow.cpp.s:
 	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/carrinho/CMakeFiles/carrinho.dir/build.make examples/carrinho/CMakeFiles/carrinho.dir/openglwindow.cpp.s
 .PHONY : openglwindow.cpp.s
 
-starlayers.o: starlayers.cpp.o
-
-.PHONY : starlayers.o
-
-# target to build an object file
-starlayers.cpp.o:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/carrinho/CMakeFiles/carrinho.dir/build.make examples/carrinho/CMakeFiles/carrinho.dir/starlayers.cpp.o
-.PHONY : starlayers.cpp.o
-
-starlayers.i: starlayers.cpp.i
-
-.PHONY : starlayers.i
-
-# target to preprocess a source file
-starlayers.cpp.i:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/carrinho/CMakeFiles/carrinho.dir/build.make examples/carrinho/CMakeFiles/carrinho.dir/starlayers.cpp.i
-.PHONY : starlayers.cpp.i
-
-starlayers.s: starlayers.cpp.s
-
-.PHONY : starlayers.s
-
-# target to generate assembly for a file
-starlayers.cpp.s:
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build && $(MAKE) -f examples/carrinho/CMakeFiles/carrinho.dir/build.make examples/carrinho/CMakeFiles/carrinho.dir/starlayers.cpp.s
-.PHONY : starlayers.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -281,9 +254,6 @@ help:
 	@echo "... openglwindow.o"
 	@echo "... openglwindow.i"
 	@echo "... openglwindow.s"
-	@echo "... starlayers.o"
-	@echo "... starlayers.i"
-	@echo "... starlayers.s"
 .PHONY : help
 
 

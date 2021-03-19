@@ -1,11 +1,13 @@
-# ABCg
+# Projeto Carrinho
 
-Development framework accompanying the course [MCTA008-17 Computer Graphics](http://professor.ufabc.edu.br/~harlen.batagelo/cg/) at [UFABC](https://www.ufabc.edu.br/).
+OpenGL
+ABCG
 
-## Author
+## Autores
 
-Harlen Batagelo
+Vitor Bonelli
+Caio Marques
 
 ## License
 
-MIT
+

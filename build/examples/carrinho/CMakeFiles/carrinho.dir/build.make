@@ -109,26 +109,12 @@ examples/carrinho/CMakeFiles/carrinho.dir/carrinho.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carrinho.dir/carrinho.cpp.s"
 	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/carrinho && /usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/carrinho.cpp -o CMakeFiles/carrinho.dir/carrinho.cpp.s
 
-examples/carrinho/CMakeFiles/carrinho.dir/starlayers.cpp.o: examples/carrinho/CMakeFiles/carrinho.dir/flags.make
-examples/carrinho/CMakeFiles/carrinho.dir/starlayers.cpp.o: ../examples/carrinho/starlayers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vbonelli/Projetos/comp_grafica_projeto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object examples/carrinho/CMakeFiles/carrinho.dir/starlayers.cpp.o"
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/carrinho && /usr/bin/ccache /usr/lib/ccache/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carrinho.dir/starlayers.cpp.o -c /home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/starlayers.cpp
-
-examples/carrinho/CMakeFiles/carrinho.dir/starlayers.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/carrinho.dir/starlayers.cpp.i"
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/carrinho && /usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/starlayers.cpp > CMakeFiles/carrinho.dir/starlayers.cpp.i
-
-examples/carrinho/CMakeFiles/carrinho.dir/starlayers.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carrinho.dir/starlayers.cpp.s"
-	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/carrinho && /usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/starlayers.cpp -o CMakeFiles/carrinho.dir/starlayers.cpp.s
-
 # Object files for target carrinho
 carrinho_OBJECTS = \
 "CMakeFiles/carrinho.dir/main.cpp.o" \
 "CMakeFiles/carrinho.dir/openglwindow.cpp.o" \
 "CMakeFiles/carrinho.dir/cones.cpp.o" \
-"CMakeFiles/carrinho.dir/carrinho.cpp.o" \
-"CMakeFiles/carrinho.dir/starlayers.cpp.o"
+"CMakeFiles/carrinho.dir/carrinho.cpp.o"
 
 # External object files for target carrinho
 carrinho_EXTERNAL_OBJECTS =
@@ -137,7 +123,6 @@ bin/carrinho: examples/carrinho/CMakeFiles/carrinho.dir/main.cpp.o
 bin/carrinho: examples/carrinho/CMakeFiles/carrinho.dir/openglwindow.cpp.o
 bin/carrinho: examples/carrinho/CMakeFiles/carrinho.dir/cones.cpp.o
 bin/carrinho: examples/carrinho/CMakeFiles/carrinho.dir/carrinho.cpp.o
-bin/carrinho: examples/carrinho/CMakeFiles/carrinho.dir/starlayers.cpp.o
 bin/carrinho: examples/carrinho/CMakeFiles/carrinho.dir/build.make
 bin/carrinho: abcg/libabcg.a
 bin/carrinho: /usr/lib/x86_64-linux-gnu/libGLX.so
@@ -149,7 +134,7 @@ bin/carrinho: /usr/lib/x86_64-linux-gnu/libSDL2main.a
 bin/carrinho: /usr/lib/x86_64-linux-gnu/libSDL2.so
 bin/carrinho: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
 bin/carrinho: examples/carrinho/CMakeFiles/carrinho.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vbonelli/Projetos/comp_grafica_projeto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../bin/carrinho"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vbonelli/Projetos/comp_grafica_projeto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../../bin/carrinho"
 	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/carrinho && /usr/bin/cmake -E remove_directory /home/vbonelli/Projetos/comp_grafica_projeto1/build/bin/carrinho
 	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/carrinho && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/carrinho.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/carrinho && /usr/bin/cmake -E make_directory /home/vbonelli/Projetos/comp_grafica_projeto1/build/bin/carrinho.dir
