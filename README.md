@@ -4,16 +4,17 @@ Utilizamos como base o framework montado para esta disciplina, o ABCg. (link: ht
 
 Membros do projeto
 			
-	Nome: Caio Augusto dos Santos Marques
-	RA: 11074813
-	Nome: Vitor Cota Bonelli
-	RA: 11009113
+	*Nome: Caio Augusto dos Santos Marques
+	*RA: 11074813
+	
+	*Nome: Vitor Cota Bonelli
+	*RA: 11009113
 
 Principais detalhes sobre o projeto
 			
-	✨Bibliotecas OpenGL & ABCg
+	*Bibliotecas OpenGL & ABCg
 	
-	✨Linguagem de programação: C++
+	*Linguagem de programação: C++
   
 
 Para executar o projeto localmente em sua maquina, é preciso seguir os seguintes procedimentos:
