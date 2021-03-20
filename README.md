@@ -52,7 +52,7 @@ Este projeto é representado por duas classes, a classe Carrinho e a classe Cone
 ```
 
 
-### ✅Curiosidades
+### ✅Informações Adicionais
 
 **O que é o SDL?**
 
