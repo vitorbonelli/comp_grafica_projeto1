@@ -27,6 +27,11 @@ $ ./build/bin/carrinho/carrinho
 
 ```
 
+# *Como Jogar*
+
+1. Acesse https://vitorbonelli.github.io/comp_grafica_projeto1/carrinho/
+2. Utilize as teclas direcionais do teclado (ou AWSD)
+3. Faça o carrinho desviar dos cones.
 
 ### ✅Sobre o projeto
 
