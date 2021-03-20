@@ -33,7 +33,7 @@ $ ./build/bin/carrinho/carrinho
 2. Utilize as teclas direcionais do teclado (ou AWSD)
 3. Faça o carrinho desviar dos cones.
 
-### ✅Sobre o projeto
+# ✅Sobre o projeto
 
 **O Projeto Carrinho**
 
