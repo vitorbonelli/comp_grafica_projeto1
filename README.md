@@ -22,7 +22,7 @@ Para executar o projeto localmente em sua maquina, é preciso seguir os seguinte
 <br>(link: http://professor.ufabc.edu.br/~harlen.batagelo/cg/config.html)
 ```
 # Se a sua maquina estiver configurada para a execução do projeto, no terminal digite:
-$ cd /carrinho
+$ cd /comp_grafica_projeto1
 $ ./build/bin/carrinho/carrinho
 
 ```
