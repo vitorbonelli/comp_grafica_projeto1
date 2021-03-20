@@ -9,11 +9,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/main.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/carrinho/CMakeFiles/carrinho.dir/main.cpp.o"
   "/home/vbonelli/Projetos/comp_grafica_projeto1/examples/carrinho/openglwindow.cpp" "/home/vbonelli/Projetos/comp_grafica_projeto1/build/examples/carrinho/CMakeFiles/carrinho.dir/openglwindow.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/include/SDL2"
   "../abcg"
   "../abcg/external/cppitertools"
   "../abcg/external/fmt"

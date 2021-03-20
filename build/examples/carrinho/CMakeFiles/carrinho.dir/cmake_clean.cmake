@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../bin/carrinho"
-  "../../bin/carrinho.pdb"
+  "../../../public/carrinho.js"
+  "../../../public/carrinho.pdb"
   "CMakeFiles/carrinho.dir/carrinho.cpp.o"
   "CMakeFiles/carrinho.dir/cones.cpp.o"
   "CMakeFiles/carrinho.dir/main.cpp.o"
